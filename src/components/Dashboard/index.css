@@ -115,7 +115,7 @@ input::-webkit-search-cancel-button {
 }
 
 input[type="search"] {
-  background: #f1f1f1 url(./image823.png) no-repeat 470px center;
+  background: #f1f1f1 url("./images/image823.png") no-repeat 470px center;
   font-size: inherit;
   font-weight: 400;
   color: black;
@@ -231,6 +231,7 @@ input::-webkit-input-placeholder {
   background: #fff;
   border-radius: 7px;
   padding: 0.5rem;
+  margin-bottom: 10px;
 }
 
 .title-label {

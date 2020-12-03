@@ -1,7 +1,7 @@
 import React from "react";
-import khan from "./path8434.png";
-import newyork from "./path858.png";
-import edtwist from "./g875.png";
+import khan from "./images/path8434.png";
+import newyork from "./images/path858.png";
+import edtwist from "./images/g875.png";
 
 function SideBar() {
   return (

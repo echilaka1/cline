@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import edtwist from "./logoedtwist.png";
+import edtwist from "./images/logoedtwist.png";
 
 export class NavComponent extends React.Component {
   render() {

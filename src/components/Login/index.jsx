@@ -5,20 +5,17 @@ import launch from "./images/undraw_To_the_stars_qhyy.svg";
 import launchtwo from "./images/undraw_Astronaut_xko2.svg";
 
 class LoginPage extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      values: {
-        email: "",
-        password: "",
-      },
-      errors: {
-        email: "",
-        password: "",
-      },
-      fireRedirect: false,
-    };
-  }
+  state = {
+    values: {
+      email: "",
+      password: "",
+    },
+    errors: {
+      email: "",
+      password: "",
+    },
+    fireRedirect: false,
+  };
 
   submitForm = async (e) => {
     e.preventDefault();

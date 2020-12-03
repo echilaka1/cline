@@ -101,7 +101,6 @@ class LoginPage extends React.Component {
                       onChange={this.handleInputChange}
                       onBlur={(e) => this.validateEmail(e.target.value)}
                       title="Email"
-                      autoComplete="off"
                       required
                     />
                     <p class="error">{this.state.errors.email}</p>

@@ -52,6 +52,7 @@ export class BodyComponent extends React.Component {
               <div className="col-5 col-s-12">
                 <h1 class="h1">Search</h1>
                 <p className="p2">Your homebase for all your resources</p>
+                <a href="#" className="btn-class">Tour</a><a href="#" className="btn-class-two">Got it</a>
               </div>
               <div className="col-7 col-s-12"></div>
             </div>

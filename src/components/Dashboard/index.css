@@ -3,8 +3,13 @@
   padding: 16px 30px;
   font-size: 14px;
   line-height: 1.5;
-  color: #E9E9E9;
+  color: #a9a9a9;
   background-color: white;
+}
+
+.home-logo {
+  width: 40px;
+  vertical-align: middle;
 }
 
 .Navbar {
@@ -89,11 +94,11 @@ input::-webkit-search-cancel-button {
 }
 
 input[type="search"] {
-  background: #F1F1F1 url(./image823.png) no-repeat 250px center;
+  background: #f1f1f1 url(./image823.png) no-repeat 250px center;
   font-size: inherit;
   font-weight: 400;
   color: black;
-  border: 1px solid #F1F1F1;
+  border: 1px solid #f1f1f1;
   box-shadow: none;
   padding: 9px 10px 9px 10px;
   width: 250px;
@@ -107,9 +112,10 @@ input[type="search"] {
 }
 
 input[type="search"]:focus {
+  background: #fafbfc url(./image823.png) no-repeat 300px center;
   width: 300px;
-  background-color:#F1F1F1;
-  border-color: #F1F1F1;
+  background-color: #f1f1f1;
+  border-color: #f1f1f1;
   color: black;
 }
 
@@ -118,4 +124,38 @@ input:-moz-placeholder {
 }
 input::-webkit-input-placeholder {
   color: #999;
+}
+
+.padded {
+  padding: 0 10px;
+}
+
+.padded.up {
+  margin-top: 40px;
+}
+
+.padded.up p i {
+  margin-right: 20px;
+}
+
+.padded.up p img {
+  margin-right: 20px;
+  width: 13px;
+  vertical-align: middle;
+}
+
+.search-bg {
+  background-color: white; 
+  border: 2px solid #7b66fe;
+  border-radius:8px;
+  padding:5px 10px;
+}
+
+.search-bg .h1 {
+  margin-top:-5px;
+  font-size:16px;
+}
+
+.search-bg .p2 {
+  color: #a2a2a2;
 }

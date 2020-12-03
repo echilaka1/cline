@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import edtwist from "./logoedtwist.png";
 
 export class NavComponent extends React.Component {
   render() {
@@ -7,7 +8,9 @@ export class NavComponent extends React.Component {
       <div>
         <header className="header">
           <div className="Navbar">
-            <div className="Navbar__Link Navbar__Link-brand" />
+            <div className="Navbar__Link Navbar__Link-brand">
+              <img src={edtwist} alt="Logo" className="home-logo" />
+            </div>
             <div className="Navbar__Link Navbar__Link-toggle">
               <i className="fa fa-bars" />
             </div>
@@ -20,7 +23,11 @@ export class NavComponent extends React.Component {
               </div>
             </nav>
             <nav className="Navbar__Items Navbar__Items--right">
-              <div class="Navbar__Link"><span>other items</span></div>
+              <div class="Navbar__Link">
+                <span>
+                  <i className="fa fa-bolt"></i>
+                </span>
+              </div>
             </nav>
           </div>
         </header>

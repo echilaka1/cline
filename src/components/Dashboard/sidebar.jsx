@@ -24,7 +24,7 @@ function SideBar() {
       <div className="padded up">
         <h1 className="h12">Sources</h1>
         <p className="p2">
-          <img src={edtwist} alt="khan logo" /> edtwist
+          <img src={edtwist} alt="khan logo" />edtwist
         </p>
         <p className="p2">
           <i className="fa fa-google"></i>Google
@@ -36,10 +36,10 @@ function SideBar() {
           <i className="fa fa-wikipedia-w"></i>Wikipedia
         </p>
         <p className="p2">
-          <img src={khan} alt="khan logo" /> Khan Academy
+          <img src={khan} alt="khan logo" />Khan Academy
         </p>
         <p className="p2">
-          <img src={newyork} alt="khan logo" /> New York Public Library
+          <img src={newyork} alt="khan logo" />New York Public Library
         </p>
       </div>
     </>

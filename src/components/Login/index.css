@@ -1,0 +1,158 @@
+/* ==========================================================================
+   02. LOGIN STYLES
+   ========================================================================== */
+
+.main-content {
+  height: 100vh;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 100vh;
+}
+
+.left {
+  width: 35%;
+  background-color: #fff6d3;
+  border-bottom: 8px solid black;
+}
+
+.right {
+  width: 65%;
+  background-color: white;
+}
+
+.rowed:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  display: table;
+  position: relative;
+}
+
+.child {
+  padding: 150px 0 0px 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .child {
+    padding: 100px 0 0px 20px;
+  }
+}
+
+.child h1 {
+  max-width: 300px;
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  color: #001a03;
+  opacity: 1;
+}
+
+.launcher {
+  width: 350px;
+}
+
+.flag {
+  width: 150px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.secondchild {
+  padding: 150px 0 0 130px;
+}
+
+@media screen and (max-width: 600px) {
+  .secondchild {
+    padding: 150px 0 0px 20px;
+  }
+}
+
+.secondchild h1 {
+  max-width: 200px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  color: #001a03;
+  opacity: 1;
+  margin-bottom: 30px;
+}
+
+.secondchild form {
+  width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  .secondchild form {
+    width: 80%;
+  }
+}
+
+.secondchild label {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 2.2;
+  letter-spacing: 0px;
+  color: #2b2d42;
+  opacity: 1;
+}
+
+.secondchild form input {
+  box-sizing: border-box;
+  height: 40px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 10px 15px;
+  background: #fafafa;
+  color: #8d99ae;
+  border: 1px solid #8d99ae;
+  border-radius: 4px;
+  opacity: 1;
+  margin-bottom: 5px;
+}
+
+.secondchild form input:focus {
+  outline: none;
+}
+
+.secondchild form button {
+  height: 40px;
+  width: 100%;
+  border-radius: 4px;
+  background: black;
+  color: white;
+  font-size: 10px;
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.error {
+  color: red;
+  font-size: 10px;
+}
+
+.secondchild form button:disabled {
+  opacity: 0.2;
+}

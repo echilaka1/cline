@@ -1,11 +1,13 @@
 import React from "react";
 import "./style.css";
-import DashBoard from "./components/Dashboard/index";
+import { Router } from "react-router-dom";
+import history from "./components/services/history";
+import Uiroute from './components/routes';
 
 export default function App() {
   return (
-    <div>
-      <DashBoard />
-    </div>
+    <Router history={history}>
+      <Uiroute />
+    </Router>
   );
 }

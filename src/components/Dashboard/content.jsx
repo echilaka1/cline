@@ -46,18 +46,28 @@ export class BodyComponent extends React.Component {
             </p>
           </div>
         </div>
-        <div className="col-4 col-s-4">
+        <div className="col-ran col-s-4">
           <div className="search-bg">
             <div className="row">
-              <div className="col-6 col-s-12">
-                  <h1 class="h1">Search</h1>
-                  <p className="p2">Your homebase for all your resources</p>
+              <div className="col-5 col-s-12">
+                <h1 class="h1">Search</h1>
+                <p className="p2">Your homebase for all your resources</p>
               </div>
-              <div className="col-6 col-s-12"></div>
+              <div className="col-7 col-s-12"></div>
             </div>
           </div>
         </div>
-        <div className="col-4 col-s-4"></div>
+        <div className="col-ran col-s-4">
+          <div className="search-bg">
+            <div className="row">
+              <div className="col-5 col-s-12">
+                <h1 class="h1">Search</h1>
+                <p className="p2">Your homebase for all your resources</p>
+              </div>
+              <div className="col-7 col-s-12"></div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

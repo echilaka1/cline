@@ -44,6 +44,7 @@ body {
   .col-s-3 {
     width: 25%;
   }
+
   .col-s-4 {
     width: 33.33%;
   }
@@ -110,6 +111,9 @@ body {
   }
   .col-12 {
     width: 100%;
+  }
+  .col-ran {
+    width: 37.5%;
   }
 }
 

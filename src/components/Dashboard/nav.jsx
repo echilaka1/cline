@@ -28,6 +28,20 @@ export class NavComponent extends React.Component {
                   <i className="fa fa-bolt"></i>
                 </span>
               </div>
+              <div class="Navbar__Link">
+                <span>
+                  <span class="circular">
+                    <i className="fa fa-plus"></i>
+                  </span>
+                </span>
+              </div>
+              <div class="Navbar__Link">
+                <span>
+                  <span class="circular black-bg">
+                    <span class="item">F</span>
+                  </span>
+                </span>
+              </div>
             </nav>
           </div>
         </header>

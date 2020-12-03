@@ -43,6 +43,27 @@
   font-size: 25px;
 }
 
+.circular {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  background-color: #7b66fe;
+  padding: 5px 9px;
+}
+
+.circular i {
+  color: white;
+}
+
+.circular .item {
+  color: white;
+}
+
+.black-bg {
+  background-color: black !important;
+  padding: 5px 10px !important;
+}
+
 @media only screen and (max-width: 768px) {
   .Navbar__Link-brand {
     display: flex;

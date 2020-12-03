@@ -6,7 +6,7 @@ function Card({ Logo, Title, media, subTitle }) {
       <div className="card-main">
         <label className="title-top-description">
           <img src={Logo} alt="logo" className="logo" />
-          <span className="logo-title">{Title}</span>
+          <span className="logo-title p">{Title}</span>
         </label>
         {media && (
           <img src={media} alt="media-content" className="media-content" />

@@ -16,7 +16,7 @@ export class NavComponent extends React.Component {
             </div>
             <nav className="Navbar__Items">
               <div className="Navbar__Link">
-                <input type="search" placeholder="Generation Y" />
+                <input type="search" className="nav-search" placeholder="Generation Y" />
               </div>
               <div className="Navbar__Link">
                 <span>Help</span>

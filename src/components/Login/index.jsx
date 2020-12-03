@@ -3,6 +3,7 @@ import "./index.css";
 import { Redirect } from "react-router-dom";
 import launch from "./images/undraw_To_the_stars_qhyy.svg";
 import launchtwo from "./images/undraw_Astronaut_xko2.svg";
+import Googlelogin from "react-google-login";
 
 class LoginPage extends React.Component {
   state = {
@@ -65,6 +66,11 @@ class LoginPage extends React.Component {
     });
   };
 
+  responseGoogle = (response) => {
+    console.log(response);
+    console.log(response.profileObj);
+  };
+
   render() {
     const enabled =
       this.state.values.email.length > 0 &&
@@ -103,7 +109,7 @@ class LoginPage extends React.Component {
                       title="Email"
                       required
                     />
-                    <p class="error">{this.state.errors.email}</p>
+                    <p className="error">{this.state.errors.email}</p>
                     <label>Password</label>
                     <input
                       type="password"
@@ -115,12 +121,21 @@ class LoginPage extends React.Component {
                       title="password"
                       required
                     />
-                    <p class="error">{this.state.errors.password}</p>
+                    <p className="error">{this.state.errors.password}</p>
                     <button type="submit" disabled={!enabled}>
                       Sign In
                     </button>
                   </form>
+
                   {fireRedirect && <Redirect to={from || "/Dashboard"} />}
+                  <h1 className="h1">Or</h1>
+                  <Googlelogin
+                    clientId="354281134649-emb25t2l2drdv4uqtnubiakmnevqvgij.apps.googleusercontent.com"
+                    buttonText="Sign in with Google"
+                    onSuccess={this.responseGoogle}
+                    onFailure={this.responseGoogle}
+                    cookiePolicy={"single_host_origin"}
+                  />
                 </div>
               </div>
             </div>

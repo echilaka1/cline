@@ -6,12 +6,15 @@
     "history": "^5.0.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
+    "react-google-login": "^5.1.25",
     "react-router-dom": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "netlify deploy",
     "eject": "react-scripts eject"
   },
   "devDependencies": {

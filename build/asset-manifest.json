@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.886bc242.chunk.css",
+    "main.js": "/static/js/main.d37f5f15.chunk.js",
+    "main.js.map": "/static/js/main.d37f5f15.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3888eb90.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3888eb90.js.map",
+    "static/js/2.f147cbc4.chunk.js": "/static/js/2.f147cbc4.chunk.js",
+    "static/js/2.f147cbc4.chunk.js.map": "/static/js/2.f147cbc4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.886bc242.chunk.css.map": "/static/css/main.886bc242.chunk.css.map",
+    "static/js/2.f147cbc4.chunk.js.LICENSE.txt": "/static/js/2.f147cbc4.chunk.js.LICENSE.txt",
+    "static/media/david.f445b0e7.PNG": "/static/media/david.f445b0e7.PNG",
+    "static/media/eddddd.35c20fd5.PNG": "/static/media/eddddd.35c20fd5.PNG",
+    "static/media/g875.16e9bb18.png": "/static/media/g875.16e9bb18.png",
+    "static/media/image834.5a820b38.png": "/static/media/image834.5a820b38.png",
+    "static/media/logoedtwist.1679b582.png": "/static/media/logoedtwist.1679b582.png",
+    "static/media/path843.b64164e9.png": "/static/media/path843.b64164e9.png",
+    "static/media/path8434.bfa8808f.png": "/static/media/path8434.bfa8808f.png",
+    "static/media/path858.539e8e1c.png": "/static/media/path858.539e8e1c.png",
+    "static/media/undraw_Astronaut_xko2.09c4598d.svg": "/static/media/undraw_Astronaut_xko2.09c4598d.svg",
+    "static/media/undraw_To_the_stars_qhyy.ea422a8f.svg": "/static/media/undraw_To_the_stars_qhyy.ea422a8f.svg",
+    "static/media/youtube.a8d135c3.png": "/static/media/youtube.a8d135c3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3888eb90.js",
+    "static/js/2.f147cbc4.chunk.js",
+    "static/css/main.886bc242.chunk.css",
+    "static/js/main.d37f5f15.chunk.js"
+  ]
+}

@@ -117,7 +117,7 @@ input[type="search"]:focus {
 }
 
 input:-moz-placeholder {
-  color:black;
+  color: black;
   font-weight: 600;
 }
 input::-webkit-input-placeholder {
@@ -130,7 +130,13 @@ input::-webkit-input-placeholder {
 }
 
 .padded.up {
-  margin-top: 40px;
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .padded.up {
+    margin-top: 20px;
+  }
 }
 
 .padded.up p i {
@@ -147,7 +153,13 @@ input::-webkit-input-placeholder {
   background-color: white;
   border: 2px solid #7b66fe;
   border-radius: 8px;
-  padding: 20px 10px;
+  padding: 15px 8px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .search-bg {
+    padding: 5px;
+  }
 }
 
 .search-bg .h1 {
@@ -161,12 +173,12 @@ input::-webkit-input-placeholder {
 
 .btn-class {
   background-color: #7b66fe;
-  color:white;
+  color: white;
   border-radius: 29px;
-  padding:5px 20px;
+  padding: 5px 20px;
   margin-right: 20px;
 }
 
 .btn-class-two {
-  color:#7b66fe;
+  color: #7b66fe;
 }

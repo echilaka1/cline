@@ -69,6 +69,8 @@ class LoginPage extends React.Component {
   responseGoogle = (response) => {
     console.log(response);
     console.log(response.profileObj);
+    this.props.history.push("/dashboard");
+    window.location.reload();
   };
 
   render() {
@@ -127,7 +129,7 @@ class LoginPage extends React.Component {
                     </button>
                   </form>
 
-                  {fireRedirect && <Redirect to={from || "/Dashboard"} />}
+                  {fireRedirect && <Redirect to={from || "/dashboard"} />}
                   <h1 className="h1">Or</h1>
                   <GoogleLogin
                     clientId="354281134649-emb25t2l2drdv4uqtnubiakmnevqvgij.apps.googleusercontent.com"

@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import { Redirect } from "react-router-dom";
 import launch from "./images/undraw_To_the_stars_qhyy.svg";
 import launchtwo from "./images/undraw_Astronaut_xko2.svg";
 import GoogleLogin from "react-google-login";
@@ -15,18 +14,17 @@ class LoginPage extends React.Component {
       email: "",
       password: "",
     },
-    fireRedirect: false,
   };
 
   submitForm = async (e) => {
     e.preventDefault();
-    this.setState({ fireRedirect: true });
     if (
       this.state.errors.email.length > 0 &&
       this.state.errors.password.length > 0
     )
       return false;
-    console.log(this.state);
+    this.props.history.push("/dashboard");
+    window.location.reload();
   };
 
   validateEmail = (email) => {
@@ -67,8 +65,6 @@ class LoginPage extends React.Component {
   };
 
   responseGoogle = (response) => {
-    console.log(response);
-    console.log(response.profileObj);
     this.props.history.push("/dashboard");
     window.location.reload();
   };
@@ -77,8 +73,6 @@ class LoginPage extends React.Component {
     const enabled =
       this.state.values.email.length > 0 &&
       this.state.values.password.length > 7;
-    const { from } = this.props.location.state || "/";
-    const { fireRedirect } = this.state;
     return (
       <div>
         <div className="main-content">
@@ -129,7 +123,6 @@ class LoginPage extends React.Component {
                     </button>
                   </form>
 
-                  {fireRedirect && <Redirect to={from || "/dashboard"} />}
                   <h1 className="h1">Or</h1>
                   <GoogleLogin
                     clientId="354281134649-emb25t2l2drdv4uqtnubiakmnevqvgij.apps.googleusercontent.com"

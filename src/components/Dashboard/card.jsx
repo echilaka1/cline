@@ -20,7 +20,7 @@ function Card({ Logo, Title, media, subTitle }) {
             et tortor a nisi convallis congue eu sit amet leo. Suspendisse
             varius non nunc sit amet cursus. Maecenas urna urna, mollis auctor
             ornare nec, hendrerit vitae metus. Proin rhoncus justo et arcu
-            tempor condimentum. Proin nec 
+            tempor condimentum.
           </p>
           <p className="btn-hooper">
             <span className="tablet subway-item">Repost</span>

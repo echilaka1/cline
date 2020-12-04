@@ -18,7 +18,7 @@ function TourCard() {
             </a>
           </div>
           <div className="col-6 col-s-12">
-            <img src={wireframe} alt="UI wireframe" />
+            <img src={wireframe} alt="UI wireframe" className="product-shot" />
           </div>
         </div>
       </div>

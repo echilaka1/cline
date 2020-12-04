@@ -35,11 +35,11 @@
   margin-left: auto;
 }
 
-.Navbar__Link-toggle {
+.Navbar__Link-togglenav {
   display: none;
 }
 
-.Navbar__Link-toggle i {
+.Navbar__Link-togglenav i {
   font-size: 25px;
 }
 
@@ -67,8 +67,6 @@
 @media only screen and (max-width: 768px) {
   .Navbar__Link-brand {
     display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .Navbar__Items,
@@ -89,8 +87,8 @@
   .Navbar__ToggleShow {
     display: flex;
   }
-  .Navbar__Link-toggle {
-    align-self: flex-start;
+  .Navbar__Link-togglenav {
+    align-self: flex-end;
     display: initial;
     position: absolute;
     cursor: pointer;

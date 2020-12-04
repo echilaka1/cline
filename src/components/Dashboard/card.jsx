@@ -27,7 +27,7 @@ function Card({ Logo, Title, media, subTitle }) {
           </p>
           <p className="text-input">
             <label className="input-flex-main">
-              <div className="abbrev">F</div>
+              <span className="abbrev">F</span>
               <input
                 type="text"
                 className="search"

@@ -7,7 +7,7 @@ function TourCard() {
       <div className="search-bg">
         <div className="row">
           <div className="col-6 col-s-12">
-            <h1 class="h1">Search</h1>
+            <h1 className="h1">Search</h1>
             <p className="p2">Your homebase for all your resources</p>
             <a href="#" className="btn-class">
               Tour

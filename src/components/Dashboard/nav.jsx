@@ -23,22 +23,22 @@ export class NavComponent extends React.Component {
               </div>
             </nav>
             <nav className="Navbar__Items Navbar__Items--right">
-              <div class="Navbar__Link">
+              <div className="Navbar__Link">
                 <span>
                   <i className="fa fa-bolt"></i>
                 </span>
               </div>
-              <div class="Navbar__Link">
+              <div className="Navbar__Link">
                 <span>
-                  <span class="circular">
+                  <span className="circular">
                     <i className="fa fa-plus"></i>
                   </span>
                 </span>
               </div>
-              <div class="Navbar__Link">
+              <div className="Navbar__Link">
                 <span>
-                  <span class="circular black-bg">
-                    <span class="item">F</span>
+                  <span className="circular black-bg">
+                    <span className="item">F</span>
                   </span>
                 </span>
               </div>

@@ -31,7 +31,7 @@ export class BodyComponent extends React.Component {
           <Card
             Logo={youtube}
             Title="YouTube"
-            subTitle="A Better Time"
+            subTitle="I'm going to be my driver's best man"
             media={david}
           />
         </div>

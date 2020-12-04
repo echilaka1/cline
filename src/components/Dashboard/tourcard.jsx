@@ -1,5 +1,6 @@
 import React from "react";
 import wireframe from "./images/eddddd.PNG";
+import "./tourcard.css";
 
 function TourCard() {
   return (

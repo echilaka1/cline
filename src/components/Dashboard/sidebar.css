@@ -1,0 +1,23 @@
+.padded {
+  padding: 0 10px;
+}
+
+.padded.up {
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .padded.up {
+    margin-top: 20px;
+  }
+}
+
+.padded.up p i {
+  margin-right: 20px;
+}
+
+.padded.up p img {
+  margin-right: 20px;
+  width: 13px;
+  vertical-align: middle;
+}

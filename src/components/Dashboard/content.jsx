@@ -1,5 +1,4 @@
 import React from "react";
-import "./index.css";
 import khancolor from "./images/path843.png";
 import newyorkco from "./images/image834.png";
 import Card from "./card";

@@ -1,4 +1,5 @@
 import React from "react";
+import "./card.css";
 
 function Card({ Logo, Title, media, subTitle }) {
   return (

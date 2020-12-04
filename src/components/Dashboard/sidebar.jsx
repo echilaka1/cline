@@ -2,6 +2,7 @@ import React from "react";
 import khan from "./images/path8434.png";
 import newyork from "./images/path858.png";
 import edtwist from "./images/g875.png";
+import "./sidebar.css";
 
 function SideBar() {
   return (
